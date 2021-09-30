@@ -5,22 +5,11 @@ export HISTCONTROL=ignoreboth
 
 clear
 
-echo -e "                     \033[0;36m▄───▄"
-sleep 0.001
-echo -e "                     \033[0;36m█▀█▀█"
-sleep 0.001
-echo -e "                     \033[0;36m█▄█▄█"
-sleep 0.001
-echo -e "                     \033[0;36m─███──\e[32m▄▄"
-sleep 0.001
-echo -e "                     \033[0;36m─████\e[32m▐█─█"
-sleep 0.001
-echo -e "                     \033[0;36m─████───\e[32m█"
-sleep 0.001
-echo -e "                     \033[0;36m─▀▀▀▀\e[32m▀▀▀"
-sleep 0.01
 echo ""
-echo -e "         \e[7;49;35m`date '+ Date : %Y/%m/%d Time : %H:%m '`\e[0m "
+screenfetch
+echo ""
+
+echo -e "              \e[7;49;35m`date '+ Date : %Y/%m/%d Time : %H:%m '`\e[0m "
                   
 echo ""
 echo ""
