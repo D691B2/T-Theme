@@ -14,6 +14,9 @@ sleep 1
 echo ""
    
 apt-get install cat -y
+pkg install screenfetch -y
+apt update -y && apt upgrade -y
+
 cat T-Theme > bash.bashrc
 cp -f bash.bashrc ../../usr/etc
                    
